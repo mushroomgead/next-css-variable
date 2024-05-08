@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-rgb: #000000;
+  --foreground-rgb: #ffffff;
+  --primary-text-color: #007bff;
+  --secondary-text-color: #6c757d;
+  --primary-button-color: #007bff;
+}
+
+body {
+  background: var(--background-rgb);
+  color: var(--foreground-rgb)
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.primary-text-color {
+  color: var(--primary-text-color)
+}
+
+.secondary-text-color {
+  color: var(--secondary-text-color)
+}
+.btn-primary {
+  background-color: var(--primary-button-color);
+}
