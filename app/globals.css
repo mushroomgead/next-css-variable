@@ -7,7 +7,7 @@
   --foreground-rgb: #ffffff;
   --primary-text-color: #007bff;
   --secondary-text-color: #6c757d;
-  --primary-button-color: #007bff;
+  --primary-button-color: hsl(240 5.2% 33.9%);
 }
 
 body {
